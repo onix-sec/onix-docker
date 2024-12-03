@@ -51,6 +51,7 @@
             goldencopy
             gosecretsdump
             goshs
+            gpp-decrypt
             haiti
             hakrevdns
             hashonymize
@@ -146,7 +147,7 @@
             exifprobe
             exiftool
             exiv2
-            # eyewitness
+            eye-witness
             fcrackzip
             feroxbuster
             ffuf
@@ -170,7 +171,6 @@
             # gopherus
             # gosecretsdump
             gowitness
-            # gpp-decrypt
             gqrx
             gron
             # h2csmuggler
@@ -186,7 +186,7 @@
             hping # hping3
             # httpmethods
             httprobe
-            python312Packages.httpx
+            httpx
             # hydra
             # ida-free # FIXME: fails to build
             # ignorant
@@ -387,6 +387,15 @@
 
             # added:
             wordlists
+            dalfox
+            dnsrecon
+            dnstwist
+            nikto
+            # pagodo
+            # https://github.com/Ge0rg3/requests-ip-rotator
+            # https://github.com/RetireJS/retire.js
+            snallygaster
+            webanalyze
           ];
         };
     };
