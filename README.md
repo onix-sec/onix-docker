@@ -19,8 +19,8 @@ Onix Docker container builder with Nix and flakes.
 ### Install
 
 ```bash
-git clone https://github.com/onix-sec/onix-vm.git
-cd onix-vm
+git clone https://github.com/onix-sec/onix-docker.git
+cd onix-docker
 ```
 
 Edit `flake.nix` to choose the tools you need.
