@@ -4,8 +4,23 @@ Onix Docker container builder with Nix and flakes.
 
 ## Usage
 
+### Requirements
+
+- [Nix](https://nixos.org/download/)
+- Configure Nix to allow `nix-command` and `flakes`:
+
+  ```bash
+  mkdir ~/.config/nix
+  cat > ~/.config/nix/nix.config << EOF
+  experimental-features = nix-command flakes
+  EOF
+  ```
+
+### Install
+
 ```bash
 git clone https://github.com/onix-sec/onix-vm.git
+cd onix-vm
 ```
 
 Edit `flake.nix` to choose the tools you need.
