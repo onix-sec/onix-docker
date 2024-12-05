@@ -5,7 +5,13 @@ Onix Docker container builder with Nix and flakes.
 ## Usage
 
 ```bash
-nix build github:onix-sec/onix-docker
+git clone https://github.com/onix-sec/onix-vm.git
+```
+
+Edit `flake.nix` to choose the tools you need.
+
+```bash
+nix build .
 docker load < ./result
 docker run -it --rm onix bash
 ```
