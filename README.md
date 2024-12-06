@@ -31,6 +31,18 @@ docker load < ./result
 docker run -it --rm onix bash
 ```
 
+Or execute a single tool inside the container:
+
+```bash
+docker run --rm onix nmap --help
+```
+
+For interactive tools use `-it` flag:
+
+```bash
+docker run --rm -it onix keyt -o
+```
+
 ## Develop
 
 Update flakes:

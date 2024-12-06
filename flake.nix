@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     nixsecpkgs = {
-      url = "github:deoktr/nixsecpkgs";
+      url = "github:onix-sec/nixsecpkgs";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -57,7 +57,7 @@
             # hashonymize
             # homoglyph
             # jackit
-            # keyt
+            keyt
             # pof
             # pywhisket
             # robotstester

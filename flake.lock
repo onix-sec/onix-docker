@@ -55,15 +55,15 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1733382948,
-        "narHash": "sha256-LHbJWN8YMxqsjZdJL3gQRLfP3CW6Eo4Mvxzgy+Zg+Zc=",
-        "owner": "deoktr",
+        "lastModified": 1733468315,
+        "narHash": "sha256-KSlBxz96vA4TzlNtIU1JC/qt+mJU08vxpflyITSTzto=",
+        "owner": "onix-sec",
         "repo": "nixsecpkgs",
-        "rev": "37fe2497ddf72cf97528afe58fee6fbdae157bbb",
+        "rev": "51739cdc12bc0f995ebbc7f93ae90d1d67d1bb0e",
         "type": "github"
       },
       "original": {
-        "owner": "deoktr",
+        "owner": "onix-sec",
         "repo": "nixsecpkgs",
         "type": "github"
       }
