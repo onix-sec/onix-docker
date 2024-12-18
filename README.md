@@ -31,6 +31,10 @@ docker load < ./result
 docker run -it --rm onix bash
 ```
 
+> [!NOTE]
+> To create an image with every tools, you'll need to download 4.1 GiB and have 24 GiB on disk.
+> The compressed Docker image will weight 7.8Gb and once loaded it's 20Gb.
+
 Or execute a single tool inside the container:
 
 ```bash
