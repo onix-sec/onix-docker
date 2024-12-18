@@ -1,8 +1,10 @@
 # Onix Docker
 
-Onix Docker container builder with Nix and flakes.
+Onix Docker container builder with Nix flake.
 
-## Usage
+## Build
+
+Build the Docker image from source.
 
 ### Requirements
 
@@ -16,24 +18,24 @@ Onix Docker container builder with Nix and flakes.
   EOF
   ```
 
-### Install
-
-```bash
-git clone https://github.com/onix-sec/onix-docker.git
-cd onix-docker
-```
+### Build
 
 Edit `flake.nix` to choose the tools you need.
 
 ```bash
 nix build .
 docker load < ./result
-docker run -it --rm onix bash
 ```
 
 > [!NOTE]
-> To create an image with every tools, you'll need to download 4.1 GiB and have 24 GiB on disk.
+> To create an image with every tool, you'll need to download 4.1 GiB and have 24 GiB on disk.
 > The compressed Docker image will weight 7.8Gb and once loaded it's 20Gb.
+
+Then run bash in it:
+
+```bash
+docker run -it --rm onix bash
+```
 
 Or execute a single tool inside the container:
 
