@@ -2,6 +2,13 @@
 
 Onix Docker container builder with Nix flake.
 
+## Usage
+
+```bash
+docker pull ghcr.io/onix-sec/onix:0.1.0
+docker run -it --rm ghcr.io/onix-sec/onix:0.1.0 bash
+```
+
 ## Build
 
 Build the Docker image from source.
