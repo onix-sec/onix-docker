@@ -4,6 +4,11 @@ Onix Docker container builder with Nix flake.
 
 ## Usage
 
+Requirements:
+
+- Docker (or any other container runtime)
+- 20 GB of disk space
+
 ```bash
 docker pull ghcr.io/onix-sec/onix:0.1.0
 docker run -it --rm ghcr.io/onix-sec/onix:0.1.0 bash
@@ -25,7 +30,7 @@ Build the Docker image from source.
   EOF
   ```
 
-### Build
+### Build Image
 
 Edit `flake.nix` to choose the tools you need.
 
@@ -68,6 +73,7 @@ nix flake update
 
 - Automatically build the image and push it to a registry with a CI
 - Create a user inside the container
+- Script to add `org.opencontainers.image.base.digest` label with the [digest](https://github.com/opencontainers/image-spec/blob/main/descriptor.md#digests) after the build
 
 ## License
 
