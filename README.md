@@ -7,11 +7,11 @@ Onix Docker container builder with Nix flake.
 Requirements:
 
 - Docker (or any other container runtime)
-- 20 GB of disk space
+- 21 GB of disk space
 
 ```bash
-docker pull ghcr.io/onix-sec/onix:0.1.0
-docker run -it --rm ghcr.io/onix-sec/onix:0.1.0 bash
+docker pull ghcr.io/onix-sec/onix:latest
+docker run -it --rm ghcr.io/onix-sec/onix:latest bash
 ```
 
 ## Build
