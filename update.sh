@@ -21,11 +21,13 @@ git add -A
 git commit -m "release: $RELEASE"
 git push
 
+# tag
+git tag "$RELEASE"
+git push origin "$RELEASE"
+
 # build
 nix build .
 docker load < ./result
-
-exit 1
 
 # publish
 docker image tag "onix:$RELEASE" "ghcr.io/onix-sec/onix:$RELEASE"
