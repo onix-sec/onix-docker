@@ -29,7 +29,7 @@
           };
 
           version = "0.2.0";
-          created = "2024-12-19T11:53:35+00:00";
+          created = "2024-12-19T11:54:57+00:00";
         in
         pkgs.dockerTools.buildLayeredImage {
           name = "onix";

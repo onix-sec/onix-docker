@@ -22,7 +22,7 @@ git commit -m "release: $RELEASE"
 git push
 
 # tag
-git tag "$RELEASE"
+git tag -a "$RELEASE"
 git push origin "$RELEASE"
 
 # build
